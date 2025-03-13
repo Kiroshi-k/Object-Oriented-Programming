@@ -26,26 +26,35 @@ namespace Lab1_3_Vectors
             y = other.y;
         }
 
-        // Метод обчислення довжини
+        // --- Перевантаження методів (function overloading) ---
+        // 1) Довжина без параметрів
         public double Length()
         {
             return System.Math.Sqrt(x * x + y * y);
         }
 
-        // Гетери (щоб зчитати координати)
+        // 2) Довжина з масштабом
+        public double Length(double scale)
+        {
+            // Масштабуємо координати на scale => довжина змінюється у scale разів
+            return this.Length() * scale;
+        }
+
+        // Гетери
         public double GetX() { return x; }
         public double GetY() { return y; }
 
-        // Перевантаження оператора +
+        // --- Перевантаження операторів ---
+        // Додавання векторів
         public static Vector operator +(Vector a, Vector b)
         {
             return new Vector(a.x + b.x, a.y + b.y);
         }
 
-        // Перевантаження оператора / (ділення на число)
+        // Ділення вектора на число
         public static Vector operator /(Vector a, double val)
         {
-            // Для спрощення не робимо перевірку на val == 0
+            // Не перевіряємо val на 0
             return new Vector(a.x / val, a.y / val);
         }
     }

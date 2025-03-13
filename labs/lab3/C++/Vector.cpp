@@ -2,12 +2,14 @@
 #include <cmath>
 
 // Конструктор за замовчуванням
-Vector::Vector() : x(0.0), y(0.0)
+Vector::Vector()
+    : x(0.0), y(0.0)
 {
 }
 
 // Конструктор з параметрами
-Vector::Vector(double xVal, double yVal) : x(xVal), y(yVal)
+Vector::Vector(double xVal, double yVal)
+    : x(xVal), y(yVal)
 {
 }
 
@@ -18,31 +20,33 @@ Vector::Vector(const Vector& other)
     y = other.y;
 }
 
-// Метод отримання довжини
+// 1) length() без параметрів
 double Vector::length() const
 {
     return std::sqrt(x * x + y * y);
 }
 
-// Гетери
-double Vector::getX() const
+// 2) length(double scale)
+double Vector::length(double scale) const
 {
-    return x;
-}
-double Vector::getY() const
-{
-    return y;
+    // Якщо уявити, що вектор масштабуємо на scale,
+    // то довжина змінюється у scale разів.
+    return this->length() * scale;
 }
 
-// Перевантаження оператора +
+// Гетери
+double Vector::getX() const { return x; }
+double Vector::getY() const { return y; }
+
+// Перевантажений оператор +
 Vector Vector::operator+(const Vector& rhs) const
 {
     return Vector(x + rhs.x, y + rhs.y);
 }
 
-// Перевантаження оператора /
+// Перевантажений оператор /
 Vector Vector::operator/(double val) const
 {
-    // Припустимо, що val != 0.0 (не робимо дод. перевірок для спрощення)
+    // Не перевіряємо val на 0 для спрощення
     return Vector(x / val, y / val);
 }

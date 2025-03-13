@@ -1,46 +1,64 @@
 #include <iostream>
 #include "Vector.h"
 
+using namespace std;
+
 int main()
 {
-    // Створимо три вектори, використовуючи різні конструктори
-    Vector V1(3.0, 4.0);   // Параметричний конструктор
-    Vector V2;            // Конструктор за замовчуванням -> (0, 0)
-    Vector V3(V1);        // Копіювальний конструктор (копія V1 -> (3,4))
+    // 1) Створюємо три вектори
+    Vector V1(3.0, 4.0); // Параметричний конструктор
+    Vector V2;           // За замовчуванням -> (0,0)
+    Vector V3(V1);       // Копіювальний (копія V1)
 
-    
+    // Ініціалізуємо V2 конкретними значеннями (1,1)
     V2 = Vector(1.0, 1.0);
 
-    std::cout << "Початкові вектори:\n";
-    std::cout << "V1 = (" << V1.getX() << ", " << V1.getY() << "), довжина = " << V1.length() << "\n";
-    std::cout << "V2 = (" << V2.getX() << ", " << V2.getY() << "), довжина = " << V2.length() << "\n";
-    std::cout << "V3 = (" << V3.getX() << ", " << V3.getY() << "), довжина = " << V3.length() << "\n\n";
+    cout << "Початкові вектори:\n";
+    cout << "V1 = (" << V1.getX() << ", " << V1.getY()
+        << "), length = " << V1.length() << "\n";
+    cout << "V2 = (" << V2.getX() << ", " << V2.getY()
+        << "), length = " << V2.length() << "\n";
+    cout << "V3 = (" << V3.getX() << ", " << V3.getY()
+        << "), length = " << V3.length() << "\n\n";
 
-    // 1) "Збільшити" V2 у 2 рази (найпростіше зробити, додавши його до самого себе)
-    V2 = V2 + V2; // тепер V2 подвоївся
-    std::cout << "Після збільшення V2 у 2 рази:\n";
-    std::cout << "V2 = (" << V2.getX() << ", " << V2.getY() << "), довжина = " << V2.length() << "\n\n";
+    // 2) "Збільшити" V2 у 2 рази:
+    V2 = V2 + V2;
 
-    // 2) "Вирівняти" V3 під довжину V1
-    //    тобто зробити довжину V3 такою, як у V1.
-    double lenV3 = V3.length();   // Поточна довжина V3
-    double lenV1 = V1.length();   // Довжина V1 (у нас це 5)
+    cout << "Після збільшення V2 у 2 рази:\n";
+    cout << "V2 = (" << V2.getX() << ", " << V2.getY()
+        << "), length = " << V2.length() << "\n\n";
+
+    // 3) "Вирівняти" V3 під довжину V1
+    double lenV3 = V3.length();
+    double lenV1 = V1.length();
     if (lenV3 != 0.0)
     {
-        double scale = lenV3 / lenV1; // якщо у V3 довжина 5, тоді scale=1
-        V3 = V3 / scale;             // тепер довжина V3 буде ~ довжині V1
+        double scale = lenV3 / lenV1;
+        // ділимо V3 на scale, щоб довжина стала, як у V1
+        V3 = V3 / scale;
     }
 
-    std::cout << "Після \"вирівнювання\" V3 під довжину V1:\n";
-    std::cout << "V3 = (" << V3.getX() << ", " << V3.getY() << "), довжина = " << V3.length() << "\n\n";
+    cout << "Після \"вирівнювання\" V3 під довжину V1:\n";
+    cout << "V3 = (" << V3.getX() << ", " << V3.getY()
+        << "), length = " << V3.length() << "\n\n";
 
-    // 3) "Помістити" результат у V1 (тобто присвоїти V1 значення від V3)
+    // 4) "Помістити" результат у V1
     V1 = V3;
 
-    std::cout << "Після \"поміщення\" V3 у V1:\n";
-    std::cout << "V1 = (" << V1.getX() << ", " << V1.getY() << "), довжина = " << V1.length() << "\n";
-    std::cout << "V2 = (" << V2.getX() << ", " << V2.getY() << "), довжина = " << V2.length() << "\n";
-    std::cout << "V3 = (" << V3.getX() << ", " << V3.getY() << "), довжина = " << V3.length() << "\n";
+    cout << "Після \"поміщення\" V3 у V1:\n";
+    cout << "V1 = (" << V1.getX() << ", " << V1.getY()
+        << "), length = " << V1.length() << "\n";
+    cout << "V2 = (" << V2.getX() << ", " << V2.getY()
+        << "), length = " << V2.length() << "\n";
+    cout << "V3 = (" << V3.getX() << ", " << V3.getY()
+        << "), length = " << V3.length() << "\n\n";
+
+    // --- Демонстрація перевантажених методів length() ---
+    double normalLen = V1.length();
+    double scaledLen = V1.length(0.5);
+
+    cout << "Length(V1) без параметрів: " << normalLen << "\n";
+    cout << "Length(V1) при scale=0.5  : " << scaledLen << "\n";
 
     return 0;
 }

@@ -17,17 +17,22 @@ public:
     // Конструктор копіювання
     Vector(const Vector& other);
 
-    // Метод отримання довжини вектора
+    // --- Перевантаження методів (function overloading) ---
+    // 1) Довжина без параметрів
     double length() const;
 
-    // Гетери (щоб можна було зчитати координати ззовні)
+    // 2) Довжина із масштабом (scale)
+    double length(double scale) const;
+
+    // Гетери
     double getX() const;
     double getY() const;
 
-    // Перевантажений оператор +
+    // --- Перевантаження операторів ---
+    // Додавання двох векторів
     Vector operator+(const Vector& rhs) const;
 
-    // Перевантажений оператор / (ділення на число)
+    // Ділення вектора на число
     Vector operator/(double val) const;
 };
 
