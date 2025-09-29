@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ovm19\\source\\repos\\PL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3255F7-1EDF-46F4-B8A2-87B51880AB74}|PL.csproj|c:\\users\\ovm19\\source\\repos\\pl\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3255F7-1EDF-46F4-B8A2-87B51880AB74}|PL.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3255F7-1EDF-46F4-B8A2-87B51880AB74}|PL.csproj|c:\\users\\ovm19\\source\\repos\\pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3255F7-1EDF-46F4-B8A2-87B51880AB74}|PL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62EEF4A-40A7-4EC3-B3DD-10D91E6DF61D}|..\\BLL\\BLL.csproj|c:\\users\\ovm19\\source\\repos\\bll\\entityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62EEF4A-40A7-4EC3-B3DD-10D91E6DF61D}|..\\BLL\\BLL.csproj|c:\\users\\ovm19\\source\\repos\\bll\\domainexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F443F5A-FD62-4B56-9131-7EE4101B7069}|..\\DAL\\DAL.csproj|c:\\users\\ovm19\\source\\repos\\dal\\data\\customtxtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F443F5A-FD62-4B56-9131-7EE4101B7069}|..\\DAL\\DAL.csproj|c:\\users\\ovm19\\source\\repos\\dal\\entitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F443F5A-FD62-4B56-9131-7EE4101B7069}|..\\DAL\\DAL.csproj|c:\\users\\ovm19\\source\\repos\\dal\\data\\binaryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F443F5A-FD62-4B56-9131-7EE4101B7069}|..\\DAL\\DAL.csproj|c:\\users\\ovm19\\source\\repos\\dal\\data\\xmlprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F443F5A-FD62-4B56-9131-7EE4101B7069}|..\\DAL\\DAL.csproj|c:\\users\\ovm19\\source\\repos\\dal\\data\\jsonprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F443F5A-FD62-4B56-9131-7EE4101B7069}|..\\DAL\\DAL.csproj|c:\\users\\ovm19\\source\\repos\\dal\\data\\idataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F443F5A-FD62-4B56-9131-7EE4101B7069}|..\\DAL\\DAL.csproj|c:\\users\\ovm19\\source\\repos\\dal\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomTxtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\DAL\\Data\\CustomTxtProvider.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\CustomTxtProvider.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\DAL\\Data\\CustomTxtProvider.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\CustomTxtProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T15:00:27.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntityContext.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\DAL\\EntityContext.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\EntityContext.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\DAL\\EntityContext.cs",
+              "RelativeToolTip": "..\\DAL\\EntityContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T15:00:46.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DomainExceptions.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\BLL\\DomainExceptions.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DomainExceptions.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\BLL\\DomainExceptions.cs",
+              "RelativeToolTip": "..\\BLL\\DomainExceptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T15:02:02.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EntityService.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\BLL\\EntityService.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\EntityService.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\BLL\\EntityService.cs",
+              "RelativeToolTip": "..\\BLL\\EntityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T15:01:43.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\PL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\PL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T14:52:25.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\PL\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\PL\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T15:02:35.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BinaryProvider.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\DAL\\Data\\BinaryProvider.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\BinaryProvider.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\DAL\\Data\\BinaryProvider.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\BinaryProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T15:00:17.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "XmlProvider.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\DAL\\Data\\XmlProvider.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\XmlProvider.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\DAL\\Data\\XmlProvider.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\XmlProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T15:00:11.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JsonProvider.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\DAL\\Data\\JsonProvider.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\JsonProvider.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\DAL\\Data\\JsonProvider.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\JsonProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T15:00:01.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDataProvider.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\DAL\\Data\\IDataProvider.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\IDataProvider.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\DAL\\Data\\IDataProvider.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\IDataProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T14:59:51.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\DAL\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\DAL\\Entities\\Student.cs",
+              "RelativeToolTip": "..\\DAL\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T14:59:21.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
