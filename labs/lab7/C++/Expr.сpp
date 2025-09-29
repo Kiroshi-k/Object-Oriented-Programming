@@ -1,0 +1,10 @@
+#include "Expr.h"
+
+double Expr::Evaluate() const {
+    double numerator   = 2 * c_ - d_ / 23.0;
+    double lnArgument  = 1.0 - a_ / 4.0;            // може бути ≤0
+    double denominator = MathEx::SafeLn(lnArgument);
+    if (denominator == 0.0)
+        throw InvalidArgument("Division by zero (denominator = 0)");
+    return numerator / denominator;
+}

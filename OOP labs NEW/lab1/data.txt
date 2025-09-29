@@ -1,0 +1,36 @@
+Student AnnaShevchenko
+{ "firstname": "Anna",
+  "lastname": "Shevchenko",
+  "studentId": "KB0001",
+  "course": "1",
+  "gender": "Female",
+  "dorm": "3,217" };
+Student IrynaMelnyk
+{ "firstname": "Iryna",
+  "lastname": "Melnyk",
+  "studentId": "KB0002",
+  "course": "1",
+  "gender": "Female",
+  "dorm": "3,105" };
+Student OlenaKoval
+{ "firstname": "Olena",
+  "lastname": "Koval",
+  "studentId": "KB0003",
+  "course": "1",
+  "gender": "Female",
+  "dorm": "2,12" };
+Student TarasBondar
+{ "firstname": "Taras",
+  "lastname": "Bondar",
+  "studentId": "KB0004",
+  "course": "1",
+  "gender": "Male",
+  "city": "Kyiv" };
+Musician MykolaLysenko
+{ "firstname": "Mykola",
+  "lastname": "Lysenko",
+  "instrument": "piano" };
+Pilot PetroAntonov
+{ "firstname": "Petro",
+  "lastname": "Antonov",
+  "license": "PPL(A)" };
