@@ -7,7 +7,7 @@ namespace Lab31
 {
     internal class Program
     {
-        // фіксовані масиви (ті без колекцій)
+        // фіксовані масиви 
         private static readonly Student[] _students = new Student[256];
         private static readonly Musician[] _musicians = new Musician[64];
         private static readonly Pilot[] _pilots = new Pilot[64];
@@ -19,7 +19,7 @@ namespace Lab31
             var dataPath = "data.txt";
             var ds = new TextFileDataSource(dataPath);
 
-            // файлу ще немає? - згенеруємо заглушку
+            // заглушкa
             if (!System.IO.File.Exists(dataPath))
             {
                 SeedDemoData();
@@ -32,7 +32,7 @@ namespace Lab31
             Array.Clear(_pilots, 0, _pilots.Length);
             _studentCount = _musicianCount = _pilotCount = 0;
 
-            // читаємо з файлу
+            // читаємо
             ds.LoadAll(_students, out _studentCount, _musicians, out _musicianCount, _pilots, out _pilotCount);
 
             ConsoleMenu.PrintHeader("Демонстрація ЛР 3.1 — робота з файлами та сутностями (варіант 3)");
@@ -44,7 +44,7 @@ namespace Lab31
 
         private static void SeedDemoData()
         {
-            // 3 студентки 1го курсу у гуртожитку (Заглушка якщо немає файлу з даними)
+            
             _students[_studentCount++] = MakeStudent("Anna", "Shevchenko", "KB0001", 1, Gender.Female, dorm: "3,217");
             _students[_studentCount++] = MakeStudent("Iryna", "Melnyk", "KB0002", 1, Gender.Female, dorm: "3,105");
             _students[_studentCount++] = MakeStudent("Olena", "Koval", "KB0003", 1, Gender.Female, dorm: "2,12");

@@ -5,14 +5,7 @@ using System.Reflection;
 
 namespace Lab31.IO
 {
-    /// <summary>
-    /// Проста модель з єдиним файлом-джерелом, у якому можуть бути Student/Musician/Pilot.
-    /// Жодних колекцій — лише масиви і лічильники.
-    /// Формат:
-    ///   Student VasiaPupkin
-    ///   { "firstname": "Vasia", "lastname": "Pupkin", "studentId":"KB123", "course":"1",
-    ///     "gender":"Female", "dorm":"3,217" };
-    /// </summary>
+    
     public sealed class TextFileDataSource
     {
         private readonly string _path;
@@ -87,7 +80,7 @@ namespace Lab31.IO
                 if (space <= 0) throw new InvalidDataException("Bad header line: " + header);
                 var type = header.Substring(0, space);
 
-                // далі має бути блок { ... };
+                
                 string block = ReadBlock(r); 
 
                 // прибираємо лапки і пробіли (типу міні парсер)
@@ -105,7 +98,7 @@ namespace Lab31.IO
                             var s = new Student(first, last, studentId, course, g);
                             if (!string.IsNullOrWhiteSpace(dorm))
                             {
-                                // формат "номер,кімната"
+                                // "номер,кімната"
                                 var parts = dorm.Split(',');
                                 int dormNo = SafeInt(parts[0], 0);
                                 var room = parts.Length > 1 ? parts[1] : "";
