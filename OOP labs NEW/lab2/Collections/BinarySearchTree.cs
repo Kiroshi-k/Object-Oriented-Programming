@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Lab32.Collections
 {
     // Узагальнене бінарне пошукове дерево (BST)
-    // Вимагаємо reference-тип + IComparable<T>
+    // reference-тип + IComparable<T>
     public class BinarySearchTree<T> : IEnumerable<T> where T : class, System.IComparable<T>
     {
         private class Node

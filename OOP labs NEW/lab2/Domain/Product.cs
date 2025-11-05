@@ -2,8 +2,7 @@
 
 namespace Lab32.Domain
 {
-    // Варіант 3: Товар
-    // Поля: Код, Назва, Виробник, Вартість, Кількість у партії
+    
     public class Product : IComparable<Product>
     {
         public int Code { get; set; }
@@ -21,7 +20,7 @@ namespace Lab32.Domain
             BatchQty = batchQty;
         }
 
-        // За замовчуванням порівнюємо за Code — зручно для дерева і сортування
+        // За замовчуванням порівнюємо за Code
         public int CompareTo(Product other)
         {
             if (other == null) return 1;
