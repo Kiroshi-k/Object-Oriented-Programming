@@ -1,0 +1,42 @@
+[
+  {
+    "LastName": "\u0406\u0432\u0430\u043D\u043E\u0432",
+    "FirstName": "\u041F\u0435\u0442\u0440\u043E",
+    "Course": 1,
+    "Gender": 0,
+    "Residence": "\u041A\u0438\u0457\u0432",
+    "DormRoom": "1.101",
+    "CanSkate": true,
+    "LivesInDorm": true
+  },
+  {
+    "LastName": "\u0428\u0435\u0432\u0447\u0435\u043D\u043A\u043E",
+    "FirstName": "\u0410\u043D\u0434\u0440\u0456\u0439",
+    "Course": 3,
+    "Gender": 0,
+    "Residence": "\u041E\u0434\u0435\u0441\u0430",
+    "DormRoom": "1.101",
+    "CanSkate": false,
+    "LivesInDorm": true
+  },
+  {
+    "LastName": "\u041A\u043E\u0432\u0430\u043B\u0435\u043D\u043A\u043E",
+    "FirstName": "\u0406\u0440\u0438\u043D\u0430",
+    "Course": 2,
+    "Gender": 1,
+    "Residence": "\u041A\u0438\u0457\u0432",
+    "DormRoom": "1.201",
+    "CanSkate": true,
+    "LivesInDorm": true
+  },
+  {
+    "LastName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "FirstName": "\u041E\u043B\u0435\u043D\u0430",
+    "Course": 1,
+    "Gender": 1,
+    "Residence": "\u041B\u044C\u0432\u0456\u0432",
+    "DormRoom": "1.201",
+    "CanSkate": false,
+    "LivesInDorm": true
+  }
+]

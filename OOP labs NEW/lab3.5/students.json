@@ -1,0 +1,56 @@
+﻿[
+  {
+    "LastName": "Іванов",
+    "FirstName": "Петро",
+    "Course": 1,
+    "Gender": 0,
+    "Residence": "Київ",
+    "DormRoom": "1.101",
+    "CanSkate": true
+  },
+  {
+    "LastName": "Петренко",
+    "FirstName": "Олена",
+    "Course": 1,
+    "Gender": 1,
+    "Residence": "Львів",
+    "DormRoom": "1.201",
+    "CanSkate": false
+  },
+  {
+    "LastName": "Сидоренко",
+    "FirstName": "Максим",
+    "Course": 1,
+    "Gender": 0,
+    "Residence": "Житомир",
+    "DormRoom": null,
+    "CanSkate": true
+  },
+  {
+    "LastName": "Коваленко",
+    "FirstName": "Ірина",
+    "Course": 2,
+    "Gender": 1,
+    "Residence": "Київ",
+    "DormRoom": "1.202",
+    "CanSkate": true
+  },
+  {
+    "LastName": "Шевченко",
+    "FirstName": "Андрій",
+    "Course": 3,
+    "Gender": 0,
+    "Residence": "Одеса",
+    "DormRoom": "1.102",
+    "CanSkate": false
+  },
+  {
+    "LastName": "Мельник",
+    "FirstName": "Наталія",
+    "Course": 4,
+    "Gender": 1,
+    "Residence": "Харків",
+    "DormRoom": null,
+    "CanSkate": true
+  }
+]

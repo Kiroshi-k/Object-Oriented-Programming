@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ovm19\\source\\repos\\lab3.5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90C0D035-C19C-4750-8730-05276EB0D7E8}|lab3.5.csproj|c:\\users\\ovm19\\source\\repos\\lab3.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C0D035-C19C-4750-8730-05276EB0D7E8}|lab3.5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C0D035-C19C-4750-8730-05276EB0D7E8}|lab3.5.csproj|c:\\users\\ovm19\\source\\repos\\lab3.5\\students.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{90C0D035-C19C-4750-8730-05276EB0D7E8}|lab3.5.csproj|solutionrelative:students.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C0D035-C19C-4750-8730-05276EB0D7E8}|lab3.5.csproj|c:\\users\\ovm19\\source\\repos\\lab3.5\\lab3.5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90C0D035-C19C-4750-8730-05276EB0D7E8}|lab3.5.csproj|solutionrelative:lab3.5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F92EAF10-5B7D-405C-BDBE-AE2FA31CFA07}|..\\Lab3.5.Tests\\Lab3.5.Tests.csproj|c:\\users\\ovm19\\source\\repos\\lab3.5.tests\\lab3.5.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F92EAF10-5B7D-405C-BDBE-AE2FA31CFA07}|..\\Lab3.5.Tests\\Lab3.5.Tests.csproj|c:\\users\\ovm19\\source\\repos\\lab3.5.tests\\studentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412E5ED6-2306-486C-A237-7DACA4432680}|..\\Lab3_5.DAL\\Lab3_5.DAL.csproj|c:\\users\\ovm19\\source\\repos\\lab3_5.dal\\jsonstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147666CD-B78C-4BE3-89FC-E1070B2E0049}|..\\Lab3_5.BLL\\Lab3_5.BLL.csproj|c:\\users\\ovm19\\source\\repos\\lab3_5.bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147666CD-B78C-4BE3-89FC-E1070B2E0049}|..\\Lab3_5.BLL\\Lab3_5.BLL.csproj|c:\\users\\ovm19\\source\\repos\\lab3_5.bll\\abstractions\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147666CD-B78C-4BE3-89FC-E1070B2E0049}|..\\Lab3_5.BLL\\Lab3_5.BLL.csproj|c:\\users\\ovm19\\source\\repos\\lab3_5.bll\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412E5ED6-2306-486C-A237-7DACA4432680}|..\\Lab3_5.DAL\\Lab3_5.DAL.csproj|c:\\users\\ovm19\\source\\repos\\lab3_5.dal\\lab3_5.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "students.json",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\lab3.5\\students.json",
+              "RelativeDocumentMoniker": "students.json",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\lab3.5\\students.json",
+              "RelativeToolTip": "students.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T13:27:08.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\lab3.5\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\lab3.5\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:19:56.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "lab3.5",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\lab3.5\\lab3.5.csproj",
+              "RelativeDocumentMoniker": "lab3.5.csproj",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\lab3.5\\lab3.5.csproj",
+              "RelativeToolTip": "lab3.5.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-20T13:19:28.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lab3.5.Tests",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\Lab3.5.Tests\\Lab3.5.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\Lab3.5.Tests\\Lab3.5.Tests.csproj",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\Lab3.5.Tests\\Lab3.5.Tests.csproj",
+              "RelativeToolTip": "..\\Lab3.5.Tests\\Lab3.5.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-20T13:18:38.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\Lab3.5.Tests\\StudentServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\Lab3.5.Tests\\StudentServiceTests.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\Lab3.5.Tests\\StudentServiceTests.cs",
+              "RelativeToolTip": "..\\Lab3.5.Tests\\StudentServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:18:40.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Lab3_5.DAL",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\Lab3_5.DAL\\Lab3_5.DAL.csproj",
+              "RelativeDocumentMoniker": "..\\Lab3_5.DAL\\Lab3_5.DAL.csproj",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\Lab3_5.DAL\\Lab3_5.DAL.csproj",
+              "RelativeToolTip": "..\\Lab3_5.DAL\\Lab3_5.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-20T13:12:04.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JsonStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\Lab3_5.DAL\\JsonStudentRepository.cs",
+              "RelativeDocumentMoniker": "..\\Lab3_5.DAL\\JsonStudentRepository.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\Lab3_5.DAL\\JsonStudentRepository.cs",
+              "RelativeToolTip": "..\\Lab3_5.DAL\\JsonStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:10:44.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\Lab3_5.BLL\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "..\\Lab3_5.BLL\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\Lab3_5.BLL\\Services\\StudentService.cs",
+              "RelativeToolTip": "..\\Lab3_5.BLL\\Services\\StudentService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:10:19.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\Lab3_5.BLL\\Abstractions\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "..\\Lab3_5.BLL\\Abstractions\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\Lab3_5.BLL\\Abstractions\\IStudentRepository.cs",
+              "RelativeToolTip": "..\\Lab3_5.BLL\\Abstractions\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:10:09.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ovm19\\source\\repos\\Lab3_5.BLL\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "..\\Lab3_5.BLL\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\ovm19\\source\\repos\\Lab3_5.BLL\\Models\\Student.cs",
+              "RelativeToolTip": "..\\Lab3_5.BLL\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:09:26.52Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
