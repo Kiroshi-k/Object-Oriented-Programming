@@ -1,10 +1,10 @@
-import java.util.Random;
+п»їimport java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
  
-        System.out.println("Розробник: Марченко К.О"); 
-        System.out.println("Лабораторна робота №1: Робота з масивами мовою Java\n");
+        System.out.println("Р РѕР·СЂРѕР±РЅРёРє: РњР°СЂС‡РµРЅРєРѕ Рљ.Рћ"); 
+        System.out.println("Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР° СЂРѕР±РѕС‚Р° в„–1: Р РѕР±РѕС‚Р° Р· РјР°СЃРёРІР°РјРё РјРѕРІРѕСЋ Java\n");
 
        
         int rows = 3;
@@ -17,18 +17,18 @@ public class Main {
       
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                // Випадкове число від 0 до 20 включно
+                // Р’РёРїР°РґРєРѕРІРµ С‡РёСЃР»Рѕ РІС–Рґ 0 РґРѕ 20 РІРєР»СЋС‡РЅРѕ
                 matrixA[i][j] = random.nextInt(21); 
             }
         }
 
-        System.out.println("Матриця A до обробки:");
+        System.out.println("РњР°С‚СЂРёС†СЏ A РґРѕ РѕР±СЂРѕР±РєРё:");
         printMatrix(matrixA);
 
         int[] tempRow = matrixA[0];
-        // Переписуємо перший рядок значеннями з другого
+        // РџРµСЂРµРїРёСЃСѓС”РјРѕ РїРµСЂС€РёР№ СЂСЏРґРѕРє Р·РЅР°С‡РµРЅРЅСЏРјРё Р· РґСЂСѓРіРѕРіРѕ
         matrixA[0] = matrixA[1];
-        // Записуємо в другий рядок збережене значення першого
+        // Р—Р°РїРёСЃСѓС”РјРѕ РІ РґСЂСѓРіРёР№ СЂСЏРґРѕРє Р·Р±РµСЂРµР¶РµРЅРµ Р·РЅР°С‡РµРЅРЅСЏ РїРµСЂС€РѕРіРѕ
         matrixA[1] = tempRow;
 
        
@@ -43,13 +43,13 @@ public class Main {
         double average = sum / count;
 
        
-        System.out.println("Матриця A після перестановки 1-го та 2-го рядків:");
+        System.out.println("РњР°С‚СЂРёС†СЏ A РїС–СЃР»СЏ РїРµСЂРµСЃС‚Р°РЅРѕРІРєРё 1-РіРѕ С‚Р° 2-РіРѕ СЂСЏРґРєС–РІ:");
         printMatrix(matrixA);
         
-        System.out.printf("Середнє арифметичне елементів матриці: %.2f\n", average);
+        System.out.printf("РЎРµСЂРµРґРЅС” Р°СЂРёС„РјРµС‚РёС‡РЅРµ РµР»РµРјРµРЅС‚С–РІ РјР°С‚СЂРёС†С–: %.2f\n", average);
     }
 
-    // Допоміжний (простий) метод для гарного виводу матриці
+    // Р”РѕРїРѕРјС–Р¶РЅРёР№ (РїСЂРѕСЃС‚РёР№) РјРµС‚РѕРґ РґР»СЏ РіР°СЂРЅРѕРіРѕ РІРёРІРѕРґСѓ РјР°С‚СЂРёС†С–
     private static void printMatrix(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
