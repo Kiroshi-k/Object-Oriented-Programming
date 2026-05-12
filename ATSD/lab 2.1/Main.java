@@ -25,11 +25,13 @@ public class Main {
         System.out.print("Введіть крок h: ");
         double h = sc.nextDouble();
 
+        int n = (int) Math.round((b - a) / h);
+
+        System.out.println("\nКількість відрізків n = " + n);
+
         System.out.println("\nРезультати обчислення інтеграла:");
         System.out.println("Метод прямокутників: " + rectangleMethod(a, b, h));
         System.out.println("Метод трапецій:       " + trapezoidMethod(a, b, h));
-
-        int n = (int) Math.round((b - a) / h);
 
         if (n % 2 == 0) {
             System.out.println("Метод Сімпсона:       " + simpsonMethod(a, b, h));
@@ -60,47 +62,55 @@ public class Main {
         sc.close();
     }
 
-    // Функція для інтеграла: sqrt(1 + x^5)
+  
+    // Функція для першого рівня: sqrt(1 + x^5)
+    
     static double f(double x) {
         return Math.sqrt(1 + Math.pow(x, 5));
     }
 
-    // Функція для рівняння: (x - 1)^2 - 0.5e^x
-    static double y(double x) {
-        return Math.pow(x - 1, 2) - 0.5 * Math.exp(x);
-    }
-
-    // Похідна функції y(x)
-    static double dy(double x) {
-        return 2 * (x - 1) - 0.5 * Math.exp(x);
-    }
-
+ 
     // Метод прямокутників
+   
     static double rectangleMethod(double a, double b, double h) {
+        int n = (int) Math.round((b - a) / h);
         double sum = 0;
 
-        for (double x = a; x < b; x += h) {
-            double middle = x + h / 2;
-            sum += f(middle);
+        for (int i = 0; i < n; i++) {
+            double x = a + i * h + h / 2; // середина відрізка
+            sum += f(x);
         }
 
         return sum * h;
     }
 
+   
     // Метод трапецій
+    
     static double trapezoidMethod(double a, double b, double h) {
-        double sum = 0;
+        int n = (int) Math.round((b - a) / h);
 
-        for (double x = a; x < b; x += h) {
-            sum += (f(x) + f(x + h)) / 2;
+        double sum = (f(a) + f(b)) / 2;
+
+        for (int i = 1; i < n; i++) {
+            double x = a + i * h;
+            sum += f(x);
         }
 
         return sum * h;
     }
 
+    
     // Метод Сімпсона
+    
     static double simpsonMethod(double a, double b, double h) {
         int n = (int) Math.round((b - a) / h);
+
+        if (n % 2 != 0) {
+            System.out.println("Метод Сімпсона неможливий: кількість відрізків має бути парною.");
+            return 0;
+        }
+
         double sum = f(a) + f(b);
 
         for (int i = 1; i < n; i++) {
@@ -116,9 +126,27 @@ public class Main {
         return sum * h / 3;
     }
 
+    
+    // Функція для другого рівня:
+    // y(x) = (x - 1)^2 - 0.5 * e^x
+   
+    static double y(double x) {
+        return Math.pow(x - 1, 2) - 0.5 * Math.exp(x);
+    }
+
+    
+    // Похідна для методу дотичних
+    // y'(x) = 2(x - 1) - 0.5 * e^x
+   
+    static double dy(double x) {
+        return 2 * (x - 1) - 0.5 * Math.exp(x);
+    }
+
+    
     // Метод половинчастого ділення
+    
     static double bisectionMethod(double a, double b) {
-        double c = 0;
+        double c;
 
         while (Math.abs(b - a) > EPS) {
             c = (a + b) / 2;
@@ -133,7 +161,9 @@ public class Main {
         return (a + b) / 2;
     }
 
-    // Метод дотичних
+   
+    // Метод дотичних, або метод Ньютона
+  
     static double newtonMethod(double a, double b) {
         double x = (a + b) / 2;
 
@@ -156,7 +186,9 @@ public class Main {
         return x;
     }
 
+    
     // Метод хорд
+   
     static double chordMethod(double a, double b) {
         double x = a;
 
